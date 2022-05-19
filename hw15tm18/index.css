@@ -1,0 +1,76 @@
+
+header {
+  width: 100%;
+  height: 300px;
+  background-image: url(lekkerkerk.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+ text-align: center;
+ color: green;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: brown;
+}
+#content {
+  display: flex;
+}
+[class*="col-"]{
+  width: 100%
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"]  {
+  float: left;
+  padding: 15px;
+}
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.left {
+  background-color: #00FF00;
+}
+ul {
+  list-style-type: none;
+}
+h2 {
+  text-align: center;
+}
+li {
+  margin: 2px;
+  padding: 2px;
+  background-color: darkgreen;
+  text-align: center;
+}
+li:hover {
+  background-color: olive;
+  color: white;
+}
+.right {
+  background-color: red;
+}
+.right:hover {
+  background-color: green;
+}
+._artikel1 img {
+  float: right;
+}
+._artikel2{
+  margin-top: 200px;
+}
+._artikel2 img {
+  float: right;
+}
